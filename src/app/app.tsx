@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 
-import NxWelcome from './nx-welcome';
+import Shortener from './Shortener';
+import UrlList from './UrlList';
 
 const StyledApp = styled.div`
   // Your style here
@@ -9,7 +10,8 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      <NxWelcome title="fe-mentor-url-shortening-api" />
+      <Shortener />
+      <UrlList />
     </StyledApp>
   );
 }
